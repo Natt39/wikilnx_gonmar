@@ -46,5 +46,11 @@ de evaluación de la pauta de cotejo, más la bitácora de uso de IA:
 5. **Nginx** (3.1.4) — Instalación de nginx y despliegue del sitio.
 6. **Prompts** — Bitácora de uso de IA durante el desarrollo.
 
-> Captura de referencia (topología / VM creada en VirtualBox):
-> `![VM srv-wiki creada en VirtualBox](img_gonmar/01_vm_creada.png)`
+> Captura de referencia (topología / VM creacion paso a paso en VirtualBox):
+![VirtualBox paso uno](img_gonmar/01_vm_creacion.png)
+
+![VirtualBox paso uno](img_gonmar/01_vm_creacion01.png)
+
+![VirtualBox paso uno](img_gonmar/01_vm_creacion_02.png)
+
+![VirtualBox paso uno](img_gonmar/01_vm_creacion03.png)

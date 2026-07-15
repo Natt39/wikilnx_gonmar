@@ -9,7 +9,7 @@ sudo apt install -y nginx
 Al abrir `http://localhost:8080` se ve la página por defecto **"Welcome to nginx!"**, confirmando que
 el servicio está activo y escuchando en el puerto 80 de la VM (mapeado al 8080 del host).
 
-> Captura: `![Welcome to nginx](img_gonmar/06_nginx_welcome.png)`
+![Welcome to nginx](img_gonmar/06_nginx_welcome.png)
 
 ## 2. Construcción del sitio
 
@@ -67,14 +67,14 @@ sudo systemctl reload nginx
 `nginx -t` valida la sintaxis de la configuración antes de aplicarla (debe responder *"syntax is ok /
 test is successful"*); `systemctl reload nginx` aplica los cambios sin cortar el servicio.
 
-> Captura: `![nginx -t exitoso](img_gonmar/06_nginx_t.png)`
+![nginx -t exitoso](img_gonmar/06_nginx_t.png)
 
 ## 6. Comprobación — evidencia clave
 
 Al recargar `http://localhost:8080` se ve el sitio servido **desde el propio servidor Linux**, ya no
 la página por defecto de nginx. Esta captura es la evidencia central del criterio 3.1.4.
 
-> Captura: `![Sitio funcionando servido desde srv-wiki](img_gonmar/06_sitio_en_linux.png)`
+![Sitio funcionando servido desde srv-wiki](img_gonmar/06_sitio_en_linux.png)
 
 ## Permisos y raíz del sitio
 
