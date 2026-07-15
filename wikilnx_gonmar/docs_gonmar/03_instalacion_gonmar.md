@@ -6,7 +6,7 @@ VM `srv-wiki`, Ubuntu 64-bit, 2 GB RAM, 25 GB de disco. Adaptador de red 1 → *
 Reenvío de puertos: `ssh 2222→22` y `web 8080→80`. Instalación de Ubuntu Server con usuario `inacap`,
 server name `srv-wiki`, marcando **"Install OpenSSH server"**.
 
-![Reenvío de puertos configurado en VirtualBox](https://github.com/user-attachments/assets/3d641c12-4cad-43e6-9bdc-e0d48d3886f0)
+![Reenvío de puertos](https://github.com/user-attachments/assets/3d641c12-4cad-43e6-9bdc-e0d48d3886f0)
 
 ## 2. Conexión por SSH
 
